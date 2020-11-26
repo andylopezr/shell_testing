@@ -1,0 +1,3 @@
+#Test the next commands when the shell and check the ouput. The commands have to be the first command
+/ls  output --> ./hsh: 1: /ls: not found
+/bin  output --> ./hsh: 1: /bin : Permission denied
