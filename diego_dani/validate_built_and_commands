@@ -1,0 +1,11 @@
+# Validate errors on the string of buitl_in
+
+echo "envv" | ./simple_shell    //expected output is a error.
+echo "exitt" | ./simple_shell    //expected output is a error.
+
+
+
+#Validate errors with spaces in the command
+
+echo "/bin      /ls      " | ./simple_shell    //expected output is a error.
+echo "ls       -l" | ./simple_shell    //expected output is to run the command.
