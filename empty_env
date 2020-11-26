@@ -1,0 +1,3 @@
+#!/bin/bash
+#Checks your shell with a simulated empty environment
+env -i ./hsh
